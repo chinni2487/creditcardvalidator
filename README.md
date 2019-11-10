@@ -11,7 +11,9 @@ Let the program download the required dependencies. Once the download is complet
 ## Rest details
 Request url:
 http://localhost:8080/card/validate
+
 Method type: POST
+
 Request body: 
 
 {

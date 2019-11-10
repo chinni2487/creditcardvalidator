@@ -8,7 +8,7 @@ The rest api verified is the provided credit card is valid or not. It uses sprin
 
 Let the program download the required dependencies. Once the download is complete, access the rest api using the below url.
 
-##Rest details
+## Rest details
 Request url:
 http://localhost:8080/card/validate
 Method type: POST

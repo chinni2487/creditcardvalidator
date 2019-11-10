@@ -2,7 +2,7 @@
 
 The rest api verified is the provided credit card is valid or not. It uses spring boot to instantiate the api. The project is managed using gradle. 
 
-##Running program:
+## Running program:
 
 ./gradlew bootRun
 

@@ -21,8 +21,10 @@ public class CardValidatorServiceImpl implements CardValidatorService {
 		for (ValidatorType validatorType: ValidatorType.values())
 		{
 			CardValidator validator = ValidatorFactory.getValidator(validatorType);
-			if (!validator.isValid(number,card))
+			if (!validator.isValid(number,card)){
+				cardType = CreditCardType.NONE;
 				return false;
+			}
 		}
 		return true;
 	}

@@ -15,16 +15,19 @@ http://localhost:8080/card/validate
 Method type: POST
 
 Request body: 
-
+```
 {
     "name":"Chinni",
     "cardNumber":"375317202320912",
     "csv":233
 }
+```
 
 Response body:
+```
 {
     "name": "Chinni",
     "status": "valid",
     "cardType": "AMEX"
 }
+```
